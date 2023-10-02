@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #navbar{
+            border: 1px solid black;
+            margin: 5px;
+            padding: 15px;
+            text-align: center;
+            background-color: rgb(233, 204, 232);
+        }
+        #links{
+            display:inline;
+        }
+        #navbar #links a{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid black;
+            opacity: .70;
+            transition: 0.4s;
+        }
+        #navbar #links a:hover{opacity: 1;transition: 0.4s;}
+        #yt{
+            background-color: rgb(221, 156, 156); color: rgb(0, 0, 0);
+        }
+        #fb{
+            background-color: rgb(99, 99, 233); color: aliceblue;
+        }
+        #dc{
+            background-color: rgb(158, 158, 230); color: aliceblue;
+        }
+        #rd{
+            background-color: rgb(153, 54, 54); color: aliceblue;
+        }
+        #x{
+            background-color: rgb(162, 200, 218); color: rgb(0, 0, 0);
+        }
+        .rounded{ border-radius: 7px;}
+    </style>
+</head>
+<body>
+    <div id="navbar" class="rounded">
+        <div id="links" ><a href="https://www.youtube.com/" id="yt" class="rounded">Youtube</a></div>
+        <div id="links" ><a href="https://www.facebook.com/" id="fb" class="rounded">Facebook</a></div>
+        <div id="links" ><a href="https://www.discord.com" id="dc" class="rounded">Discord</a></div>
+        <div id="links" ><a href="https://www.reddit.com" id="rd" class="rounded">Reddit</a></div>
+        <div id="links" ><a href="https://www.twitter.com" id="x" class="rounded">Twitter</a></div>
+    </div>
+
+    <div class="banner">
+        <h2>Welcome to <span>Coffee Express</span></h2>
+        <p>The taste and aroma of different coffee blends that you 
+            are surely to enjoy for the rest of your life. 
+            Come try it now.
+        </p>
+        <a href="">Try it now</a>
+    </div>
+
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>
